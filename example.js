@@ -12,7 +12,7 @@ var nightmare = Nightmare({
 })
 
 nightmare
-  // .authentication('spotgo7sov','a6rgIT0iohwK0qgrD6')
+
   .goto('https://pollingkita.com/polling364378-polling-menurut-anda-siapakah-caleg-provinsi-partai-nasdem-dapil-10-jawa-barat-yang-akan-anda-pilih#google_vignette')
    .click('#btn3')
    .wait('#main')
