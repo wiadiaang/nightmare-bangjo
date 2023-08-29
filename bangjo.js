@@ -8,7 +8,7 @@ const { HttpsProxyAgent } = require('https-proxy-agent')
 
 const url= 'https://ip.smartproxy.com/json';
 const proxyAgent = new HttpsProxyAgent(
-  'http://spotgo7sov:a6rgIT0iohwK0qgrD6@id.smartproxy.com:10000');
+  'http://:@id.smartproxy.com:10000');
 
 axios
   .get(url, {
