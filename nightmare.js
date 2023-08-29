@@ -8,7 +8,7 @@ let nightmare = Nightmare({
     });
 
     nightmare
-    .authentication('spotgo7sov','a6rgIT0iohwK0qgrD6') // Username and Password for your Sub-user
+    .authentication('','') // Username and Password for your Sub-user
     .goto('https://whatismyipaddress.com')
     .evaluate(() => document.querySelector('div#ipv4').textContent)
     .end()
