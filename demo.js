@@ -9,7 +9,7 @@ var proxyNightmare = Nightmare({
 })
 
 proxyNightmare
-  .authentication('spotgo7sov', 'a6rgIT0iohwK0qgrD6') // ... and authenticate here before `goto`
+  .authentication('', '') // ... and authenticate here before `goto`
   .goto(
     'https://pollingkita.com/polling364378-polling-menurut-anda-siapakah-caleg-provinsi-partai-nasdem-dapil-10-jawa-barat-yang-akan-anda-pilih'
   )
